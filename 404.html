@@ -1,178 +1,81 @@
+
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<!-- Title page -->
-		<title>404 Error - Not Found</title>
 
-		<!-- Charset -->
-		<meta charset="iso-8859-1" />
+<head>
+	<!-- Page title -->
+	<title>404 Page Not Found</title>
+	<!-- Chatset -->
+	<meta charset="utf-8" />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<style>
+		.page_404 {
+			padding: 40px 0;
+			background: #fff;
+			font-family: 'Comfortaa', sans-serif;
+			font-size: 1.3rem;
+		}
 
-		<!-- Stylesheet -->
-		<style type="text/css">
-			/* @group Terminalish */
-			body {
-			  background-color: #0000AA;
-			  font-family: "Courier New", Menlo;
-			  font-size: 13px;
-			  font-weight: bold;
-			  color: #ffffff;
-			}
-			#content {
-			   margin: 0 auto;
-			   padding-top: 80px;
-			   width: 640px;
-			   height: 300px;
-			   text-align: left;
-			}
-			h1.headline {
-			  margin: 0 auto;
-			  background-color: #AAAAAA;
-			  color: #0000AA;
-			  padding: 2px 5px 2px 5px;
-			  font-size: 14px;
-			  width: 230px;
-			  min-width: 130px;
-			  text-align: center;
-			  float: center;
-			}
+		.page_404 img {
+			width: 100%;
+		}
 
-			p {
-			  line-height: 1.5em;
-			}
-			
-			.continue {
-			  text-align: center;
-			}
-			/* @end */
+		.four_zero_four_bg {
 
-			/* @group Konami */
-			#konami {
-				position: fixed;
-				right:-900px;
-				width: 900px;
-			}
-			/* @end */
+			background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+			height: 400px;
+			background-position: center;
+		}
 
-			/* @group Real-World CSS */
-			
-			/**
-			*    Real-World CSS
-			*    by @visualidiot. Licensed under WTPFL.
-			*/
 
-			.blink {
-				-webkit-animation: blink .75s linear infinite;
-				-moz-animation: blink .75s linear infinite;
-				-ms-animation: blink .75s linear infinite;
-				-o-animation: blink .75s linear infinite;
-				animation: blink .75s linear infinite;
-			}
+		.four_zero_four_bg h1 {
+			font-size: 80px;
+		}
 
-			@-webkit-keyframes blink {
-				0% { opacity: 1; }
-				50% { opacity: 1; }
-				50.01% { opacity: 0; }
-				100% { opacity: 0; }
-			}
+		.four_zero_four_bg h3 {
+			font-size: 80px;
+		}
 
-			@-moz-keyframes blink {
-				0% { opacity: 1; }
-				50% { opacity: 1; }
-				50.01% { opacity: 0; }
-				100% { opacity: 0; }
-			}
+		.link_404 {
+			color: #fff !important;
+			padding: 10px 20px;
+			background: #39ac31;
+			margin: 20px 0;
+			display: inline-block;
+		}
 
-			@-ms-keyframes blink {
-				0% { opacity: 1; }
-				50% { opacity: 1; }
-				50.01% { opacity: 0; }
-				100% { opacity: 0; }
-			}
+		.contant_box_404 {
+			margin-top: -50px;
+		}
+	</style>>
 
-			@-o-keyframes blink {
-				0% { opacity: 1; }
-				50% { opacity: 1; }
-				50.01% { opacity: 0; }
-				100% { opacity: 0; }
-			}
+</head>
 
-			@keyframes blink {
-				0% { opacity: 1; }
-				50% { opacity: 1; }
-				50.01% { opacity: 0; }
-				100% { opacity: 0; }
-			}
+<body>
+	<section class="page_404">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 ">
+					<div class="col-sm-10 col-sm-offset-1  text-center">
+						<div class="four_zero_four_bg">
+							<h1 class="text-center ">404</h1>
+						</div>
 
-			.wordart {
-			    color: #333; /* This is for non-webkit browsers */
-			    -webkit-text-fill-color: transparent;
+						<div class="contant_box_404">
+							<h3 class="h2">
+								Look like you're lost
+							</h3>
 
-			    position: relative;
-			    display: inline-block;
-			    
-			    font: bold 48px "Arial Narrow", sans-serif;
-			}
+							<p>the page you are looking for not avaible!</p>
 
-			.wordart:before {
-			    content: attr(title);
-			    
-			    position: absolute;
-			    left: 0;
-			    top: 0;
-			    z-index: 2;
-			    
-			    background: -webkit-linear-gradient(left, rgb(176,9,151) 0%, rgb(227,33,107) 10%, rgb(249,96,30) 25%, rgb(255,180,18) 40%, rgb(255,216,45) 50%, rgb(185,221,23) 61%, rgb(65,160,60) 75%, rgb(19,54,180) 90%, rgb(116,27,157) 100%);
-			    
-			    -webkit-background-clip: text;
-			    -webkit-text-fill-color: transparent;
-			}
-
-			.wordart:after {
-			    content: attr(title);
-
-			    position: absolute;
-			    z-index: 199;
-			    left: -6px;
-			    bottom: -10px;
-			    
-			    z-index: 1;
-			    
-			    
-			    -webkit-text-fill-color: #000;
-			    -webkit-transform: skew(40deg, 0deg) scaleY(.5);
-			    
-			    opacity: .3;
-			}
-			/* @end */
-		</style>
-	</head>
-	<body>	
-		<div id="content"> 
-			<h1 class="headline">404 Error - Not Found</h1>
-			<p>A fatal 404 exception has occurred. The current page request will be terminated.</p>
-
-		 	<ul>
-				<li>Press the back button to return to the previous page.</li>
-				<li>Send us an e-mail to let us know about this or enter Konami code.</li>
-				<li>Press CTRL+ALT+DEL again to restart your computer. You will</br> 
-		    		lose any unsaved information in all applications.</li>
-			</ul>
-			
-			<p class="continue">Press any key to continue <span class="blink">_</span></p><br />
+							<a href="" class="link_404">Go to Home</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="http://static.yeahwh.at/js/mousetrap.min.js"></script>
+	</section>
+</body>
 
-		<script type="text/javascript">
-			Mousetrap.bind('up up down down left right left right b a', function() {
-				$('#konami').animate({"right": '+=1000'}, 3000).delay(10).animate({"right": '+=1200'}, 2000).delay(2).animate({"right": '+=1200'}, 2000);
-			});
-		</script>
-
-		<div id="konami">
-			<img src="http://static.yeahwh.at/images/unicorn.gif" />
-			<h1 class="wordart" title="WROOOM!!!11">WROOOM!!!11</h1>
-			<p><a href="https://actcms.work/">ACTCMS</a></p>
-		</div>
-	</body>
 </html>
