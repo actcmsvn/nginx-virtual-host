@@ -1,0 +1,8 @@
+{
+    "name": "actcmsvn/nginx-virtual-host",
+    "description": "Nginx Virtual Host",
+    "require": {
+        "php": ">=5.4",
+        "another-vendor/package": "1.*"
+    }
+}
